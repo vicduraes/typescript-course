@@ -1,11 +1,11 @@
 class Negociacoes {
-    private _negociacoes: Negociacao[] = []; 
+  private _negociacoes: Negociacao[] = [];
 
-    adiciona(negociacao: Negociacao): void {
-        this._negociacoes.push(negociacao);
-    }
+  adiciona(negociacao: Negociacao): void {
+    this._negociacoes.push(negociacao);
+  }
 
-    getNegociacao(): Negociacao[] {
-        return [].concat(this._negociacoes);
-    }
+  getNegociacao(): Negociacao[] {
+    return [].concat(this._negociacoes);
+  }
 }
