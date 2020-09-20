@@ -1,11 +1,10 @@
 {
-    "compilerOptions": {
-        "target": "es6",
-        "outDir": "app/js",
-        "noEmitOnError": true, //não permite a compilação pra js enquanto tiver erro
-        "noImplicitAny": true
-    },
-    "include": [
-        "app/ts/**/*"
-    ]
+  "compilerOptions": {
+    "target": "es6",
+    "outDir": "app/js",
+    "noEmitOnError": true, //não permite a compilação pra js enquanto tiver erro
+    "noImplicitAny": true,
+    "removeComments": true
+  },
+  "include": ["app/ts/**/*"]
 }
